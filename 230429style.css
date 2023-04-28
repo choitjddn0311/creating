@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ .clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+ }
+ 
+ img{
+    vertical-align: top;
+    border: 0;
+ }
+ 
+ body{
+    color: #222328;
+ }
+ 
+ .wrap{
+    width: 1200px;
+    margin: 0 auto;
+ }
+
+ header{
+    width: 100%;
+    height: 100px;
+}
+
+header h1{
+    float: left;
+    width: 200px;
+    padding-top: 30px;  
+}
+
+header nav{
+    float: right;
+    width: 700px;
+    padding-top: 30px;    
+}
+
+header nav ul.gnb{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+header nav ul.gnb>li{
+    width: 25%;
+    float: left;    
+}
+header nav ul.gnb>li>a{
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+header nav ul.gnb>li>a>ul.sub{
+    width: 100%;
+    line-height: 40px;
+} 
+header nav ul.gnb>li>a>ul.sub>li{
+    width: 100%;
+    line-height: 40px;
+}
+header nav ul.gnb>li>a>ul.sub>li>a{
+    display: block;
+    width: 100%; 
+    height: 100%;
+}  
+
+.slide{
+    width: 100%;
+    height: 300px;
+    background: #bbb;
+}
+
+.contents{
+    width: 100%;
+    height: 200px;
+    background: #ccc;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background: #ddd;
+}
+
+/* tv율희-웹디자인쌉고수:[웹디자인기능사]01 JUST쇼핑몰 문제풀이 -1
+                        23분 15초부터 시청
+*/
